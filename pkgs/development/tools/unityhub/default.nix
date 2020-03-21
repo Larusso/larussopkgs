@@ -56,9 +56,9 @@ let
 
     buildInputs = [ undmg ];
     installPhase = ''
-      mkdir -p "$out/Applications/Unity/Hub/${appName}.app"
-      cp -R . "$out/Applications/Unity/Hub/${appName}.app"
-      chmod a+x "$out/Applications/Unity/Hub/${appName}.app/Contents/MacOS/${appName}"
+      mkdir -p "$out/Applications/${appName}.app"
+      cp -R . "$out/Applications/${appName}.app"
+      chmod a+x "$out/Applications/${appName}.app/Contents/MacOS/${appName}"
     '';
   };
 
