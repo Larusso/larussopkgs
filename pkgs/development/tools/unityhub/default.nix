@@ -5,7 +5,7 @@ let
 
   throwSystem = throw "Unsupported system: ${system}";
 
-  name = "larusso-unityhub";
+  name = "unityhub";
   appName = "Unity Hub";
 
   sha256 = {
