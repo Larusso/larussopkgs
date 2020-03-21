@@ -2,7 +2,7 @@
 let pkgs = import <nixpkgs> { inherit system; };
 
 in {
-  larusso.unityhub = pkgs.callPackage ./pkgs/development/tools/unityhub {
+  larusso-unityhub = pkgs.callPackage ./pkgs/development/tools/unityhub {
     stdenv = pkgs.stdenv;
     fetchurl = pkgs.fetchurl;
     appimageTools = pkgs.appimageTools;
